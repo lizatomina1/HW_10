@@ -1,0 +1,16 @@
+ 1017  git commit
+ 1018  cat .gitignore
+ 1019  touch main_test.txt
+ 1020  git add .
+ 1021  git commit
+ 1022  git checkout -b develop
+ 1023  touch develop_test.txt
+ 1024  git add .
+ 1025  git commit -m "added develop_test.txt file"
+ 1026  vim develop_test.txt
+ 1027  git status
+ 1028  git add .
+ 1029  git commit -m "changed develop_test.txt file"
+ 1030  git checkout main
+ 1031  git merge develop
+ 1032  git log
